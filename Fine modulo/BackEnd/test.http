@@ -1,0 +1,44 @@
+GET http://localhost:7777/authors
+
+####
+
+POST http://localhost:7777/login
+Content-Type: application/json
+
+{
+    "email": "paperino@ring.com",
+    "password": "pippo123"
+}
+
+####s
+
+GET http://localhost:7777/authors/65fe8aa2f7d7ea4f6dc4c3f7
+
+
+####
+
+PATCH  http://localhost:7777/authors/65fe87117bf0989788dfba9f
+Content-Type: application/json
+
+{
+    "password": "Bilbobaggins"
+}
+####
+
+DELETE  http://localhost:7777/authors/65fe8aa2f7d7ea4f6dc4c3f7
+
+
+####
+POST http://localhost:7777/authors
+Content-Type: application/json
+
+{
+    "nome": "Civione",
+    "cognome": "QuaQua",
+    "email": "paperino@ring.com",
+    "password": "pippo123",
+    "dataDiNascita": "2 Ottobre 1456",
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/2/25/Ritratto_di_Alessandro_Manzoni_by_Francesco_Hayez.jpg"
+}
+
+

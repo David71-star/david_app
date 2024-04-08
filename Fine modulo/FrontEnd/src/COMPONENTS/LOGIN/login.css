@@ -1,0 +1,33 @@
+.loginForm{
+    text-align: center;
+    
+}
+.login{
+    text-align: center;
+    margin-top: 50%;
+    width: 275px;
+}
+
+.input{
+    border: grey 2px solid;
+    border-radius: 5px;
+}
+
+.input:hover{
+    transition: 0.5s;
+    border: black 2px solid;
+    border-radius: 5px;
+}
+
+.password{
+    margin-top: 10px;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+}
+button{
+    margin-top: 15%;
+}
